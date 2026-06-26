@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Netflix AWS Clone</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🎬 Netflix AWS Clone</h1>
+
+<div class="upload-box">
+
+<input
+id="videoId"
+placeholder="Video ID">
+
+<input
+id="title"
+placeholder="Movie Title">
+
+<input
+id="uploader"
+placeholder="Uploader">
+
+<button onclick="uploadVideo()">
+Upload Movie
+</button>
+
+</div>
+
+<hr>
+
+<button onclick="loadVideos()">
+Show Movies
+</button>
+
+<div id="movies"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
